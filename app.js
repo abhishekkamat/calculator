@@ -1,5 +1,5 @@
 function button(node) {
-    a = node.innerHTML;
+    a=node.innerHTML;
     if (a == "x") {
         document.getElementById("intext").value = document.getElementById("intext").value + "*";
     }
